@@ -21,6 +21,8 @@ dynamics.
     caption="Image design: Panar Ege Uesten."
 >}}
 
+This is a test image:
+
 ![Test Image](/images/crowd.png)
 
 
@@ -56,7 +58,7 @@ studies.
     caption="The fundamental diagram describes the relationship of flow and density and helps to understand the formation of congestions."
 >}}
 
-Further reading on the fundamental diagram is be found in this dissertation:
+Further reading on the fundamental diagram is found in this dissertation:
 [Pedestrian fundamental diagrams: Comparative analysis of experiments in
 different geometries](https://juser.fz-juelich.de/record/128157)
 
@@ -123,7 +125,7 @@ such as:
 {{<
     figure
     src="images/lane-formation.gif"
-    caption="Spontanous emergence of lane formation in a bi-directional flow"
+    caption="Spontaneous emergence of lane formation in a bi-directional flow"
 >}}
 
 - **Clogging at Bottlenecks**: Recognized by the jamming arch of multiple
@@ -135,7 +137,7 @@ such as:
 {{<
     figure
     src="images/clogging.webp"
-    caption="Cloggging in a bottleneck"
+    caption="Clogging in a bottleneck"
 >}}
 
 - **Stop-and-Go Waves**: A distinct behavior observed in congested systems,
