@@ -57,17 +57,16 @@ jobs:
       - name: Modify
         if: github.event_name == 'pull_request'
         run: |
-          echo "OUTPUT_URL=Test" >> GITHUB_ENV
+          echo "OUTPUT_URL=Test" >> "$GITHUB_ENV"
 
       - name: Modify
         if: github.event_name == 'push'
         run: |
-          echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}" >> $GITHUB_ENV
+          echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}" >> "$GITHUB_ENV"
 
       - name: Test
         run: |
           echo "${{ env.OUTPUT_URL }}"
-          echo $OUTPUT_URL
 
 #      - name: Install Node.js dependencies
 #        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
