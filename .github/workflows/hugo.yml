@@ -17,6 +17,7 @@ on:
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
+  pull-requests: write 
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -79,6 +80,7 @@ jobs:
           folder: ./public/
           branch: gh-pages
           clean-exclude: pr-preview/
+          force: false
   
       - name: Upload artifact
         uses: actions/upload-artifact@v3
