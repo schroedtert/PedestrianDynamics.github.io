@@ -68,6 +68,7 @@ jobs:
       - name: Test
         run: |
           echo "${{ env.OUTPUT_URL }}"
+          echo $OUTPUT_URL
 
 #      - name: Install Node.js dependencies
 #        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
