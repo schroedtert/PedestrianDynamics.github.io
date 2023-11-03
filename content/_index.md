@@ -16,14 +16,9 @@ lengthscales and timescales. Central to this study is the composition of the
 crowd, which plays a pivotal role in unraveling the intricacies of pedestrian
 dynamics.
 
-{{< figure
-    src="/images/crowd.png"
-    caption="Image design: Panar Ege Uesten."
->}}
-
-This is a test image:
-
-![FOO!](/images/crowd.png)
+![Image of a crowd entering through a door.](/images/crowd.png 
+    "Image design: Panar Ege Uesten."
+)
 
 At first glance, the research in Pedestrian Dynamics may seem like the
 exploration of ordinary flows of people in crowded places. However, beneath the
@@ -51,11 +46,10 @@ in-depth insights into the history, latest developments, and practical
 applications of traffic flow theory, backed by empirical data and simulation
 studies.
 
-{{<
-    figure
-    src="images/fd.png"
-    caption="The fundamental diagram describes the relationship of flow and density and helps to understand the formation of congestions."
->}}
+
+![Illustration of the fundamental diagram](/images/fd.png 
+    "The fundamental diagram describes the relationship of flow and density and helps to understand the formation of congestions."
+)
 
 Further reading on the fundamental diagram is found in this dissertation:
 [Pedestrian fundamental diagrams: Comparative analysis of experiments in
@@ -71,7 +65,7 @@ smooth and enjoyable experiences at various gatherings.
 
 {{<
     figure
-    src="images/queue.jpg"
+    src="/images/queue.jpg"
     caption="[Photo](https://unsplash.com/photos/aerial-photography-of-people-Nzb4LBsctyQ) by [Hal Gatewood](https://unsplash.com/@halacious) on [Unsplash](https://unsplash.com)"
 >}}
 
@@ -100,7 +94,7 @@ genuine sentiments of individuals.
 
 {{<
     figure
-    src="images/crowd_station.jpg"
+    src="/images/crowd_station.jpg"
     caption="[Photo](https://unsplash.com/photos/people-standing-and-walking-on-stairs-in-mall-mVhd5QVlDWw) by [Anna Dziubinska](https://unsplash.com/@annadziubinska) on [Unsplash](https://unsplash.com/)"
 >}}
 
