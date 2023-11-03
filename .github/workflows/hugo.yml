@@ -58,7 +58,8 @@ jobs:
       - name: Modify
         if: github.event_name == 'pull_request'
         run:
-          echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}/pr-preview/pr-${{ github.event.number }}" >> GITHUB_ENV
+          echo "${{ steps.pages.outputs.base_url }}/pr-preview/pr-${{ github.event.number }}" 
+          echo "OUTPUT_URL=Test" >> GITHUB_ENV
 
       - name: Modify
         if: github.event_name == 'push'
