@@ -35,6 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.114.0
+      OUTPUT_URL: ${{ steps.pages.outputs.base_url }}
 
     steps:
 #      - name: Install Hugo CLI
