@@ -78,6 +78,7 @@ jobs:
         with:
           folder: ./public/
           branch: gh-pages
+          clean-exclude: pr-preview/
   
       - name: Upload artifact
         uses: actions/upload-artifact@v3
