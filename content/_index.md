@@ -21,6 +21,8 @@ dynamics.
     caption="Image design: Panar Ege Uesten."
 >}}
 
+![Test Image](/images/crowd.png)
+
 At first glance, the research in Pedestrian Dynamics may seem like the
 exploration of ordinary flows of people in crowded places. However, beneath the
 surface lies a fascinating and challenging science that addresses three
