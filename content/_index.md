@@ -23,9 +23,7 @@ dynamics.
 
 This is a test image:
 
-`{{ with .Resources.GetMatch "/images/crowd.png" }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
+![FOO!](/images/crowd.png)
 
 At first glance, the research in Pedestrian Dynamics may seem like the
 exploration of ordinary flows of people in crowded places. However, beneath the
