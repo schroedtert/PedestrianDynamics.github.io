@@ -54,6 +54,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
       - name: Set base URL for PRs
         if: github.event_name == 'pull_request'
         run: |
@@ -63,13 +66,6 @@ jobs:
         if: github.event_name == 'push'
         run: |
           echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}" >> "$GITHUB_ENV"
-
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-
-      - name: Set Base Url
-        if: github.event_name == 'pull_request'
-        run:
 
       - name: Build with Hugo
         env:
