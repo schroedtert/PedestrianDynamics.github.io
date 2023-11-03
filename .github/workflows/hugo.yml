@@ -35,6 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.114.0
+
     steps:
 #      - name: Install Hugo CLI
 #        run: |
@@ -55,19 +56,17 @@ jobs:
 
       - name: Modify
         if: github.event_name == 'pull_request'
-        id: url
         run:
-          echo "output_url=${{ steps.pages.outputs.base_url }}/pr-preview/pr-${{ github.event.number }}" >> $GITHUB_OUTPUT
+          echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}/pr-preview/pr-${{ github.event.number }}" >> GITHUB_ENV
 
       - name: Modify
         if: github.event_name == 'push'
-        id: url
         run:
-          echo "output_url=${{ steps.pages.outputs.base_url }}" >> $GITHUB_OUTPUT
+          echo "OUTPUT_URL=${{ steps.pages.outputs.base_url }}" >> $GITHUB_ENV
 
       - name: Test
         run:
-          echo "${{ steps.url.outputs.output_url }}"
+          echo "${{ env.OUTPUT_URL }}"
 
           #      - name: Install Node.js dependencies
 #        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
