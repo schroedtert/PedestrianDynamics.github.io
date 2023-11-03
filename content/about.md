@@ -41,5 +41,5 @@ pedestrian dynamics.
 
 ## Creators
 
-[Dr. Mohcine Chraibi](/authors#MohcineChraibi), [Kai Kratz](/authors#KaiKratz), and [Tobias Schrödter](/authors#TobiasSchrödter)
+[Dr. Mohcine Chraibi](authors#MohcineChraibi), [Kai Kratz](authors#KaiKratz), and [Tobias Schrödter](authors#TobiasSchrödter)
 
