@@ -55,12 +55,19 @@ jobs:
 
       - name: Modify
         if: github.event_name == 'pull_request'
+        id: url
         run:
-          echo "${{ steps.pages.outputs.base_url }}"
+          echo "output_url=${{ steps.pages.outputs.base_url }}/pr-preview/pr-${{ github.event.number }}" >> $GITHUB_OUTPUT
+
+      - name: Modify
+        if: github.event_name == 'push'
+        id: url
+        run:
+          echo "output_url=${{ steps.pages.outputs.base_url }}" >> $GITHUB_OUTPUT
 
       - name: Test
         run:
-          echo "${{ steps.pages.outputs.base_url }}"
+          echo "${{ steps.url.outputs.output_url }}"
 
           #      - name: Install Node.js dependencies
 #        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
