@@ -469,12 +469,12 @@ This article is a collaborative work, with contributions from various authors
 listed in alphabetical order:
 
 
-- [Mohcine Chraibi](/authors#MohcineChraibi)
-- [Alessandro Corbetta](/authors#AlessandroCorbetta)
-- [Claudio Feliciani](/authors#ClaudioFeliciani)
-- [Milad Haghani](/authors#MiladHaghani)
-- [Enrico Ronchi](/authors#EnricoRonchi)
-- [Jette Schumann](/authors#JetteSchumann)
-- [Antoine Tordeux](/authors#AntoineTordeux)
-- [Ezel Üsten](/authors#EzelÜsten)
+- [Mohcine Chraibi](authors#MohcineChraibi)
+- [Alessandro Corbetta](authors#AlessandroCorbetta)
+- [Claudio Feliciani](authors#ClaudioFeliciani)
+- [Milad Haghani](authors#MiladHaghani)
+- [Enrico Ronchi](authors#EnricoRonchi)
+- [Jette Schumann](authors#JetteSchumann)
+- [Antoine Tordeux](authors#AntoineTordeux)
+- [Ezel Üsten](authors#EzelÜsten)
 
