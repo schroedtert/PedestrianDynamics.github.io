@@ -31,7 +31,6 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
@@ -66,7 +65,7 @@ jobs:
           echo "${{ steps.pages.outputs.base_url }}/"
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/pr-preview/pr-3"
 
       - name: Deploy preview
         if: github.event_name == 'pull_request'
