@@ -16,10 +16,11 @@ lengthscales and timescales. Central to this study is the composition of the
 crowd, which plays a pivotal role in unraveling the intricacies of pedestrian
 dynamics.
 
-![Image of a crowd entering through a door.](/images/crowd.png 
-    "Image design: Panar Ege Uesten."
-)
-
+{{< figure
+    src="images/crowd.png"
+    caption="Image design: Panar Ege Uesten."
+>}}
+> 
 At first glance, the research in Pedestrian Dynamics may seem like the
 exploration of ordinary flows of people in crowded places. However, beneath the
 surface lies a fascinating and challenging science that addresses three
@@ -46,10 +47,11 @@ in-depth insights into the history, latest developments, and practical
 applications of traffic flow theory, backed by empirical data and simulation
 studies.
 
-
-![Illustration of the fundamental diagram](/images/fd.png 
-    "The fundamental diagram describes the relationship of flow and density and helps to understand the formation of congestions."
-)
+{{<
+    figure
+    src="images/fd.png"
+    caption="The fundamental diagram describes the relationship of flow and density and helps to understand the formation of congestions."
+>}}
 
 Further reading on the fundamental diagram is found in this dissertation:
 [Pedestrian fundamental diagrams: Comparative analysis of experiments in
