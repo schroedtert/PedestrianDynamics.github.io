@@ -67,7 +67,7 @@ smooth and enjoyable experiences at various gatherings.
 
 {{<
     figure
-    src="/images/queue.jpg"
+    src="images/queue.jpg"
     caption="[Photo](https://unsplash.com/photos/aerial-photography-of-people-Nzb4LBsctyQ) by [Hal Gatewood](https://unsplash.com/@halacious) on [Unsplash](https://unsplash.com)"
 >}}
 
@@ -96,7 +96,7 @@ genuine sentiments of individuals.
 
 {{<
     figure
-    src="/images/crowd_station.jpg"
+    src="images/crowd_station.jpg"
     caption="[Photo](https://unsplash.com/photos/people-standing-and-walking-on-stairs-in-mall-mVhd5QVlDWw) by [Anna Dziubinska](https://unsplash.com/@annadziubinska) on [Unsplash](https://unsplash.com/)"
 >}}
 
