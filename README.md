@@ -17,3 +17,4 @@ Note: pages will autoregenerated and reloaded on save on the content.
 ```txt
 hugo server --buildDrafts --disableFastRender
 ```
+FOO!
